@@ -1,0 +1,22 @@
+{
+    "Params": {
+        "DevMode": {
+            "Instrumentation": {
+                "command": "",
+                "env": {"ENABLE_BLUEMIX_DEV_MODE": true},
+                "memory": "256M"
+            },
+            "Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+        },
+        "Name": "cloud-foundry-poc",
+        "Target": {
+            "Org": "scottf@us.ibm.com",
+            "Space": "GarageRetailPoC",
+            "Url": "https://api.ng.bluemix.net"
+        },
+        "Timeout": 60
+    },
+    "Path": "",
+    "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+    "Type": "Cloud Foundry"
+}
